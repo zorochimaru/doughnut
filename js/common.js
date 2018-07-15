@@ -1,9 +1,7 @@
-fotoramaDefaults = {
-		autoplay:true,
-		nav:false,
-		fit:'cover',
-		arrows:true,
-		// width: 700,
-    maxwidth: '100%',
-    ratio: 16/9,
-  }
+$('.fotorama').fotorama({
+	fit:'cover',
+	width: 1300,
+  ratio: 16/6,
+  loop:true,
+	autoplay:true,
+});
