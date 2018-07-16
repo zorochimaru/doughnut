@@ -1,7 +1,7 @@
 $('.fotorama').fotorama({
 	fit:'cover',
-	width: 1300,
-  ratio: 16/6,
+	width: '100%',
+  ratio: 16/7,
   loop:true,
 	autoplay:true,
 });

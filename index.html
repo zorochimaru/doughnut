@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Donuts</title>
-    <!--Title from DB-->
     <!-- Required meta tags -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <!--Unicode-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <!--Mobile view-->
-    <link rel="shortcut icon" type="image/x-icon" href="./img/ico.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--Icon-->
+    <link rel="shortcut icon" type="image/x-icon" href="./img/ico.png">
     <!-- CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!--animate css-->
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <!--Custom css-->
-    <link rel="stylesheet" href="css/fotorama.css">
+    <link rel="stylesheet" href="css/main.min.css">
     <!--Fotorama css-->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/fotorama.css">
     <!-- icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <!--Content-->
     <div id="wrapper">
         <header>
             <div class="logo"><a href="#"><img src="img/logo.png" /></a></div>
@@ -32,41 +28,82 @@
                 <input type="search" placeholder="Search..." />
             </div>
             <div class="title">
-                <h1><b>HOME OF MALASADAS & PAO DOCE</b></h1>
+                <h1>HOME OF MALASADAS & PAO DOCE</h1>
             </div>
-            <nav><a href="#">Home</a><a href="#">About</a><a href="#">Menu</a><a href="#">Visit us</a><a href="#">E-Store</a></nav>
+            <nav>
+            	<a href="#">Home</a>
+            	<a href="#">About</a>
+            	<a href="#">Menu</a>
+            	<a href="#">Visit us</a>
+            	<a href="#">E-Store</a>
+            </nav>
         </header>
-        <section class="slider">
-            <div class="fotorama" >
+        <section class="fotorama">
                 <img src="img/slider/slide.png">
                 <img src="img/slider/slide.png">
                 <img src="img/slider/slide.png">
-            </div>
         </section>
-        <section class="cards">
+        <section class="cards_container">
         	<div class="card">
-        		<div class="up"><img src="img/card1.png">
+        		<div class="card_title"><img src="img/card1.png">
         		<h2>Coffee</h2></div>
         		<p>Our coffee masters have distilled their years of tasting knowledge down to three simple questions to help you finf a Paddoce coffee you're sure to love.</p>
-        		<a href="#" class="cardlink"></a>
+        		<a href="#"></a>
         	</div>
         	<div class="card">
-        		<div class="up"><img src="img/card2.png"><h2>Tea</h2></div>
+        		<div class="card_title"><img src="img/card2.png"><h2>Tea</h2></div>
         		<p>Only our brings you premium-Teavana teas that are handcrafted to create the perfect cup, every time. From tea lattes to iced teas to prefectly brewedcups.</p>
-        		<a href="#" class="cardlink"></a>
+        		<a href="#"></a>
         	</div>
         	<div class="card">
-        		<div class="up"><img src="img/card3.png"><h2>Donuts</h2></div>
+        		<div class="card_title"><img src="img/card3.png"><h2>Donuts</h2></div>
         		<p>A malasada is a Portugese doughnut without a hole. We fry generously-sized balls of dough until it's golden brown on the outside and light & fluffy on the inside.</p>
-        		<a href="#" class="cardlink"></a>
+        		<a href="#"></a>
         	</div>
         	<div class="card">
         		<h2>Combo offer</h2>
         		<p>We cannot guarantee that any of our products are free from allergens (includding dairy,eggs,soy,tree nuts,wheat and others) as we use shared equipment to store.</p>
-        		<a href="#" class="cardlink"></a>
+        		<a href="#"></a>
         	</div>
-        	
         </section>
+        <section class="featured_donuts">
+        	<div class="featured_title"><h3>Featured Donuts</h3></div>
+					<img src="img/big_donut.png" id="big_donut">
+					<div class="donuts_container">
+						<div class="donut_info">
+							<div class="donut_img"><img src="img/donut1.png" alt=""></div>
+							<div class="donut_text"><h2>Chell Donut Original.</h2><h4>The original shell Donut with chocolate icing and chocolate filling inside. 80 gram, 1.5$.</h4></div>
+						</div>
+						<div class="donut_info">
+							<div class="donut_img"><img src="img/donut2.png" alt=""></div>
+							<div class="donut_text"><h2>Chell Donut with Nutella.</h2><h4>Mouth-watering cookies, which is decorated with legendary shell Donat. 80 	gram, 1.6$.</h4></div>
+						</div>
+						<div class="donut_info">
+							<div class="donut_img"><img src="img/donut3.png" alt=""></div>
+							<div class="donut_text"><h2>Chell Donut Strawberry.</h2><h4>The original shell Donut with strawberry icing inside. 60 gram, 1.0$.</h4></div>
+						</div>
+						<div class="donut_info">
+							<div class="donut_img"><img src="img/donut4.png" alt=""></div>
+							<div class="donut_text"><h2>Fancy Chocolate.</h2><h4>Donut with a glaze of dark chocolate and colorful candy sprinkles Fancy. 80 gram, 1.9$.</h4></div>
+						</div>
+					</div>
+        </section>
+        <section class="welcome">
+        	<h1>Welcome to our cafe!</h1>
+        	<h2>Our cafe is a constant sample of the high quality products and fast service, frendly atmosphere and hospitality design; favorite place of youth meetings and recreation for the whole family.</h2>
+        	<img src="img/donut.png">
+        </section>
+        <footer class="footer">
+        		<nav>
+            	<a href="#">Home</a>
+            	<a href="#">About</a>
+            	<a href="#">Menu</a>
+            	<a href="#">Visit us</a>
+            	<a href="#">E-Store</a>
+            </nav>
+            <div class="footer_text">
+            	<span>Confidentiality.</span><span> © 2017. DD IP Holder LLC. All Rights reserved.</a9></div>
+        </footer>
     </div>
     <!--Scipts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -75,5 +112,4 @@
     <script src="js/common.js"></script>
     <!--Custom js-->
 </body>
-
 </html>
