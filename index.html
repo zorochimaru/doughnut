@@ -10,19 +10,21 @@
     <!--Icon-->
     <link rel="shortcut icon" type="image/x-icon" href="./img/ico.png">
     <!-- CSS -->
-    <!--animate css-->
+    <!--Animate css-->
     <link rel="stylesheet" href="css/animate.min.css">
-    <!--Custom css-->
-    <link rel="stylesheet" href="css/main.min.css">
     <!--Fotorama css-->
     <link rel="stylesheet" href="css/fotorama.css">
-    <!-- icons -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <!--Custom css-->
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
     <div id="wrapper">
         <header>
-            <div class="logo"><a href="#"><img src="img/logo.png" /></a></div>
+            <div class="logo wow fadeInLeft"><a href="#"><img src="img/logo.png" /></a></div>
             <div class="login"><a href="#"><div class="usericon"></div>USER LOGIN</a></div>
             <div class="search">
                 <input type="search" placeholder="Search..." />
@@ -43,7 +45,7 @@
                 <img src="img/slider/slide.png">
                 <img src="img/slider/slide.png">
         </section>
-        <section class="cards_container">
+        <section class="cards_container wow fadeInUp">
         	<div class="card">
         		<div class="card_title"><img src="img/card1.png">
         		<h2>Coffee</h2></div>
@@ -68,22 +70,22 @@
         </section>
         <section class="featured_donuts">
         	<div class="featured_title"><h3>Featured Donuts</h3></div>
-					<img src="img/big_donut.png" id="big_donut">
+					<img src="img/big_donut.png" id="big_donut" class="wow fadeInRight" data-wow-offset="500">
 					<div class="donuts_container">
 						<div class="donut_info">
-							<div class="donut_img"><img src="img/donut1.png" alt=""></div>
+							<div class="donut_img wow fadeInLeft" data-wow-offset="200"><img src="img/donut1.png" alt=""></div>
 							<div class="donut_text"><h2>Chell Donut Original.</h2><h4>The original shell Donut with chocolate icing and chocolate filling inside. 80 gram, 1.5$.</h4></div>
 						</div>
 						<div class="donut_info">
-							<div class="donut_img"><img src="img/donut2.png" alt=""></div>
+							<div class="donut_img wow fadeInLeft" data-wow-offset="200"><img src="img/donut2.png" alt=""></div>
 							<div class="donut_text"><h2>Chell Donut with Nutella.</h2><h4>Mouth-watering cookies, which is decorated with legendary shell Donat. 80 	gram, 1.6$.</h4></div>
 						</div>
 						<div class="donut_info">
-							<div class="donut_img"><img src="img/donut3.png" alt=""></div>
+							<div class="donut_img wow fadeInLeft" data-wow-offset="200"><img src="img/donut3.png" alt=""></div>
 							<div class="donut_text"><h2>Chell Donut Strawberry.</h2><h4>The original shell Donut with strawberry icing inside. 60 gram, 1.0$.</h4></div>
 						</div>
 						<div class="donut_info">
-							<div class="donut_img"><img src="img/donut4.png" alt=""></div>
+							<div class="donut_img wow fadeInLeft" data-wow-offset="200"><img src="img/donut4.png" alt=""></div>
 							<div class="donut_text"><h2>Fancy Chocolate.</h2><h4>Donut with a glaze of dark chocolate and colorful candy sprinkles Fancy. 80 gram, 1.9$.</h4></div>
 						</div>
 					</div>
@@ -91,10 +93,10 @@
         <section class="welcome">
         	<h1>Welcome to our cafe!</h1>
         	<h2>Our cafe is a constant sample of the high quality products and fast service, frendly atmosphere and hospitality design; favorite place of youth meetings and recreation for the whole family.</h2>
-        	<img src="img/donut.png">
+        	<img src="img/donut.png" class="wow zoomIn" data-wow-offset="200">
         </section>
         <footer class="footer">
-        		<nav>
+        	<nav>
             	<a href="#">Home</a>
             	<a href="#">About</a>
             	<a href="#">Menu</a>
@@ -102,7 +104,9 @@
             	<a href="#">E-Store</a>
             </nav>
             <div class="footer_text">
-            	<span>Confidentiality.</span><span> © 2017. DD IP Holder LLC. All Rights reserved.</a9></div>
+            	<span>Confidentiality.</span>
+                <span>© 2017. DD IP Holder LLC. All Rights reserved.</span>
+            </div>
         </footer>
     </div>
     <!--Scipts-->
